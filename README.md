@@ -52,24 +52,24 @@ DataBaseの作成から接続、一覧表示、削除など基本的な操作手
 ## SQL操作
 QLスクリプトをファイルごとに分けて保存して実行する
 
-**データの挿入**
+**データ挿入**
     ```bash
     psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/insert_data.sql
     ```
 
-**データの取得**
+**データ取得**
     ```bash
     psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/select_data.sql
     ```
     データを確認するために、データを取得するクエリを実行する
 
-**データの更新**
+**データ更新**
     ```bash
     psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/update_data.sql
     ```
 
 
-**データの削除**
+**データ削除**
     ```bash
     psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/delete_data.sql
     ```
