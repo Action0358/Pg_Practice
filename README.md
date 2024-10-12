@@ -20,7 +20,7 @@
     ```
 
 ### 手順2: SQL スクリプトの実行
-データベースが作成された後、シェルに戻り、以下のコマンドで SQL スクリプトを実行します。
+1. データベースが作成された後、シェルに戻り、以下のコマンドで SQL スクリプトを実行します。
     ```bash
     psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/create_table.sql
     ```
