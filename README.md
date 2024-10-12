@@ -43,27 +43,3 @@
     ```sql
     DROP DATABASE mydatabase;
     ```
-
-## SQL操作
-SQL スクリプトをファイルごとに分けて保存して実行します。
-
-### データ挿入
-    ```bash
-    psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/insert_data.sql
-    ```
-
-### データ取得
-    ```bash
-    psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/select_data.sql
-    ```
-
-### データ更新
-    ```bash
-    psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/update_data.sql
-    ```
-
-### データ削除
-    ```bash
-    psql -U Action0358 -d mydatabase -f /Pg_Practice/DataBase/delete_data.sql
-    ```
-    
